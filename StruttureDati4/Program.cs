@@ -23,7 +23,7 @@ namespace Es_Strutture_Dati_4
                 string line;
                 while ((line = sr.ReadLine()) != null)
                 {
-                    lista.Add(double.Parse(line));
+                    lista.Add(double.Parse(line)); 
                 }
             }
             bool state = false;
